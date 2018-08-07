@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		452801C3AF3CE42CACF92C98 /* Pods_Teknio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC88375EE18CF7B0C83BD176 /* Pods_Teknio.framework */; };
+		863BD71EB9F9BEF92EB2FEA9 /* Pods_TeknioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F898B8DEFD458AB690CAC8E6 /* Pods_TeknioTests.framework */; };
 		D767EAA32119FD5700FC313A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D767EAA22119FD5700FC313A /* AppDelegate.swift */; };
 		D767EAA52119FD5700FC313A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D767EAA42119FD5700FC313A /* ViewController.swift */; };
 		D767EAA82119FD5700FC313A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D767EAA62119FD5700FC313A /* Main.storyboard */; };
@@ -26,6 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		454477D543FE7DC262345D5A /* Pods-Teknio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teknio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Teknio/Pods-Teknio.debug.xcconfig"; sourceTree = "<group>"; };
+		5CFCDC1B5EFEFB105AA92E82 /* Pods-TeknioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeknioTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TeknioTests/Pods-TeknioTests.release.xcconfig"; sourceTree = "<group>"; };
+		99137C1631BFB6920DE0FFD4 /* Pods-TeknioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeknioTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeknioTests/Pods-TeknioTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B93C20BEAEBF9E010A9FCE76 /* Pods-Teknio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teknio.release.xcconfig"; path = "Pods/Target Support Files/Pods-Teknio/Pods-Teknio.release.xcconfig"; sourceTree = "<group>"; };
+		BC88375EE18CF7B0C83BD176 /* Pods_Teknio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teknio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D767EA9F2119FD5700FC313A /* Teknio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teknio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D767EAA22119FD5700FC313A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D767EAA42119FD5700FC313A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +43,7 @@
 		D767EAB32119FD5800FC313A /* TeknioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeknioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D767EAB72119FD5800FC313A /* TeknioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeknioTests.swift; sourceTree = "<group>"; };
 		D767EAB92119FD5800FC313A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F898B8DEFD458AB690CAC8E6 /* Pods_TeknioTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeknioTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				452801C3AF3CE42CACF92C98 /* Pods_Teknio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				863BD71EB9F9BEF92EB2FEA9 /* Pods_TeknioTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6DBECCA3668FB72ED6F065FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC88375EE18CF7B0C83BD176 /* Pods_Teknio.framework */,
+				F898B8DEFD458AB690CAC8E6 /* Pods_TeknioTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBF4155D7B2BED2C2A20375A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				454477D543FE7DC262345D5A /* Pods-Teknio.debug.xcconfig */,
+				B93C20BEAEBF9E010A9FCE76 /* Pods-Teknio.release.xcconfig */,
+				99137C1631BFB6920DE0FFD4 /* Pods-TeknioTests.debug.xcconfig */,
+				5CFCDC1B5EFEFB105AA92E82 /* Pods-TeknioTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D767EA962119FD5700FC313A = {
 			isa = PBXGroup;
 			children = (
 				D767EAA12119FD5700FC313A /* Teknio */,
 				D767EAB62119FD5800FC313A /* TeknioTests */,
 				D767EAA02119FD5700FC313A /* Products */,
+				BBF4155D7B2BED2C2A20375A /* Pods */,
+				6DBECCA3668FB72ED6F065FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D767EABC2119FD5800FC313A /* Build configuration list for PBXNativeTarget "Teknio" */;
 			buildPhases = (
+				F09835BFE12FDF82EEFB4D25 /* [CP] Check Pods Manifest.lock */,
 				D767EA9B2119FD5700FC313A /* Sources */,
 				D767EA9C2119FD5700FC313A /* Frameworks */,
 				D767EA9D2119FD5700FC313A /* Resources */,
+				DE0765585F895CFA4288D082 /* [CP] Embed Pods Frameworks */,
+				08CD5C7D36D49BDED56E4353 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D767EABF2119FD5800FC313A /* Build configuration list for PBXNativeTarget "TeknioTests" */;
 			buildPhases = (
+				8B6498A63F1220742FE5EA89 /* [CP] Check Pods Manifest.lock */,
 				D767EAAF2119FD5800FC313A /* Sources */,
 				D767EAB02119FD5800FC313A /* Frameworks */,
 				D767EAB12119FD5800FC313A /* Resources */,
+				B8168E0C49F79427DFB17AF3 /* [CP] Embed Pods Frameworks */,
+				CB7624AB53DD8FA9CBA48BA1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,6 +229,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08CD5C7D36D49BDED56E4353 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Teknio/Pods-Teknio-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B6498A63F1220742FE5EA89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B8168E0C49F79427DFB17AF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeknioTests/Pods-TeknioTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB7624AB53DD8FA9CBA48BA1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeknioTests/Pods-TeknioTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE0765585F895CFA4288D082 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Teknio/Pods-Teknio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F09835BFE12FDF82EEFB4D25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D767EA9B2119FD5700FC313A /* Sources */ = {
@@ -356,6 +487,7 @@
 		};
 		D767EABD2119FD5800FC313A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 454477D543FE7DC262345D5A /* Pods-Teknio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -374,6 +506,7 @@
 		};
 		D767EABE2119FD5800FC313A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B93C20BEAEBF9E010A9FCE76 /* Pods-Teknio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -392,6 +525,7 @@
 		};
 		D767EAC02119FD5800FC313A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99137C1631BFB6920DE0FFD4 /* Pods-TeknioTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -413,6 +547,7 @@
 		};
 		D767EAC12119FD5800FC313A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CFCDC1B5EFEFB105AA92E82 /* Pods-TeknioTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
