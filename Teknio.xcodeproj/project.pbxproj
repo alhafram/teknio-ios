@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D767EAA32119FD5700FC313A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D767EAA22119FD5700FC313A /* AppDelegate.swift */; };
+		D767EAA52119FD5700FC313A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D767EAA42119FD5700FC313A /* ViewController.swift */; };
+		D767EAA82119FD5700FC313A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D767EAA62119FD5700FC313A /* Main.storyboard */; };
+		D767EAAA2119FD5800FC313A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D767EAA92119FD5800FC313A /* Assets.xcassets */; };
+		D767EAAD2119FD5800FC313A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D767EAAB2119FD5800FC313A /* LaunchScreen.storyboard */; };
+		D767EAB82119FD5800FC313A /* TeknioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D767EAB72119FD5800FC313A /* TeknioTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D767EAB42119FD5800FC313A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D767EA972119FD5700FC313A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D767EA9E2119FD5700FC313A;
+			remoteInfo = Teknio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D767EA9F2119FD5700FC313A /* Teknio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teknio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D767EAA22119FD5700FC313A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D767EAA42119FD5700FC313A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D767EAA72119FD5700FC313A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D767EAA92119FD5800FC313A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D767EAAC2119FD5800FC313A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D767EAAE2119FD5800FC313A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D767EAB32119FD5800FC313A /* TeknioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeknioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D767EAB72119FD5800FC313A /* TeknioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeknioTests.swift; sourceTree = "<group>"; };
+		D767EAB92119FD5800FC313A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D767EA9C2119FD5700FC313A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D767EAB02119FD5800FC313A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D767EA962119FD5700FC313A = {
+			isa = PBXGroup;
+			children = (
+				D767EAA12119FD5700FC313A /* Teknio */,
+				D767EAB62119FD5800FC313A /* TeknioTests */,
+				D767EAA02119FD5700FC313A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D767EAA02119FD5700FC313A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D767EA9F2119FD5700FC313A /* Teknio.app */,
+				D767EAB32119FD5800FC313A /* TeknioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D767EAA12119FD5700FC313A /* Teknio */ = {
+			isa = PBXGroup;
+			children = (
+				D767EAA22119FD5700FC313A /* AppDelegate.swift */,
+				D767EAA42119FD5700FC313A /* ViewController.swift */,
+				D767EAA62119FD5700FC313A /* Main.storyboard */,
+				D767EAA92119FD5800FC313A /* Assets.xcassets */,
+				D767EAAB2119FD5800FC313A /* LaunchScreen.storyboard */,
+				D767EAAE2119FD5800FC313A /* Info.plist */,
+			);
+			path = Teknio;
+			sourceTree = "<group>";
+		};
+		D767EAB62119FD5800FC313A /* TeknioTests */ = {
+			isa = PBXGroup;
+			children = (
+				D767EAB72119FD5800FC313A /* TeknioTests.swift */,
+				D767EAB92119FD5800FC313A /* Info.plist */,
+			);
+			path = TeknioTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D767EA9E2119FD5700FC313A /* Teknio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D767EABC2119FD5800FC313A /* Build configuration list for PBXNativeTarget "Teknio" */;
+			buildPhases = (
+				D767EA9B2119FD5700FC313A /* Sources */,
+				D767EA9C2119FD5700FC313A /* Frameworks */,
+				D767EA9D2119FD5700FC313A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Teknio;
+			productName = Teknio;
+			productReference = D767EA9F2119FD5700FC313A /* Teknio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D767EAB22119FD5800FC313A /* TeknioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D767EABF2119FD5800FC313A /* Build configuration list for PBXNativeTarget "TeknioTests" */;
+			buildPhases = (
+				D767EAAF2119FD5800FC313A /* Sources */,
+				D767EAB02119FD5800FC313A /* Frameworks */,
+				D767EAB12119FD5800FC313A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D767EAB52119FD5800FC313A /* PBXTargetDependency */,
+			);
+			name = TeknioTests;
+			productName = TeknioTests;
+			productReference = D767EAB32119FD5800FC313A /* TeknioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D767EA972119FD5700FC313A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Alexey Karataev";
+				TargetAttributes = {
+					D767EA9E2119FD5700FC313A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					D767EAB22119FD5800FC313A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D767EA9E2119FD5700FC313A;
+					};
+				};
+			};
+			buildConfigurationList = D767EA9A2119FD5700FC313A /* Build configuration list for PBXProject "Teknio" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D767EA962119FD5700FC313A;
+			productRefGroup = D767EAA02119FD5700FC313A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D767EA9E2119FD5700FC313A /* Teknio */,
+				D767EAB22119FD5800FC313A /* TeknioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D767EA9D2119FD5700FC313A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D767EAAD2119FD5800FC313A /* LaunchScreen.storyboard in Resources */,
+				D767EAAA2119FD5800FC313A /* Assets.xcassets in Resources */,
+				D767EAA82119FD5700FC313A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D767EAB12119FD5800FC313A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D767EA9B2119FD5700FC313A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D767EAA52119FD5700FC313A /* ViewController.swift in Sources */,
+				D767EAA32119FD5700FC313A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D767EAAF2119FD5800FC313A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D767EAB82119FD5800FC313A /* TeknioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D767EAB52119FD5800FC313A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D767EA9E2119FD5700FC313A /* Teknio */;
+			targetProxy = D767EAB42119FD5800FC313A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D767EAA62119FD5700FC313A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D767EAA72119FD5700FC313A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D767EAAB2119FD5800FC313A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D767EAAC2119FD5800FC313A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D767EABA2119FD5800FC313A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D767EABB2119FD5800FC313A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D767EABD2119FD5800FC313A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U67ZU8H7H4;
+				INFOPLIST_FILE = Teknio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.akarataev.Teknio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D767EABE2119FD5800FC313A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U67ZU8H7H4;
+				INFOPLIST_FILE = Teknio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.akarataev.Teknio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D767EAC02119FD5800FC313A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U67ZU8H7H4;
+				INFOPLIST_FILE = TeknioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.akarataev.TeknioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teknio.app/Teknio";
+			};
+			name = Debug;
+		};
+		D767EAC12119FD5800FC313A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U67ZU8H7H4;
+				INFOPLIST_FILE = TeknioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.akarataev.TeknioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teknio.app/Teknio";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D767EA9A2119FD5700FC313A /* Build configuration list for PBXProject "Teknio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D767EABA2119FD5800FC313A /* Debug */,
+				D767EABB2119FD5800FC313A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D767EABC2119FD5800FC313A /* Build configuration list for PBXNativeTarget "Teknio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D767EABD2119FD5800FC313A /* Debug */,
+				D767EABE2119FD5800FC313A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D767EABF2119FD5800FC313A /* Build configuration list for PBXNativeTarget "TeknioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D767EAC02119FD5800FC313A /* Debug */,
+				D767EAC12119FD5800FC313A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D767EA972119FD5700FC313A /* Project object */;
+}
