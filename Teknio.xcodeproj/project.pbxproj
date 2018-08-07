@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		452801C3AF3CE42CACF92C98 /* Pods_Teknio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC88375EE18CF7B0C83BD176 /* Pods_Teknio.framework */; };
+		863BD71EB9F9BEF92EB2FEA9 /* Pods_TeknioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F898B8DEFD458AB690CAC8E6 /* Pods_TeknioTests.framework */; };
 		D767EAA32119FD5700FC313A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D767EAA22119FD5700FC313A /* AppDelegate.swift */; };
 		D767EAA52119FD5700FC313A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D767EAA42119FD5700FC313A /* ViewController.swift */; };
 		D767EAA82119FD5700FC313A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D767EAA62119FD5700FC313A /* Main.storyboard */; };
@@ -26,6 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		454477D543FE7DC262345D5A /* Pods-Teknio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teknio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Teknio/Pods-Teknio.debug.xcconfig"; sourceTree = "<group>"; };
+		5CFCDC1B5EFEFB105AA92E82 /* Pods-TeknioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeknioTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TeknioTests/Pods-TeknioTests.release.xcconfig"; sourceTree = "<group>"; };
+		99137C1631BFB6920DE0FFD4 /* Pods-TeknioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeknioTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeknioTests/Pods-TeknioTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B93C20BEAEBF9E010A9FCE76 /* Pods-Teknio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teknio.release.xcconfig"; path = "Pods/Target Support Files/Pods-Teknio/Pods-Teknio.release.xcconfig"; sourceTree = "<group>"; };
+		BC88375EE18CF7B0C83BD176 /* Pods_Teknio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teknio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D767EA9F2119FD5700FC313A /* Teknio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teknio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D767EAA22119FD5700FC313A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D767EAA42119FD5700FC313A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +43,7 @@
 		D767EAB32119FD5800FC313A /* TeknioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeknioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D767EAB72119FD5800FC313A /* TeknioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeknioTests.swift; sourceTree = "<group>"; };
 		D767EAB92119FD5800FC313A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F898B8DEFD458AB690CAC8E6 /* Pods_TeknioTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeknioTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				452801C3AF3CE42CACF92C98 /* Pods_Teknio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				863BD71EB9F9BEF92EB2FEA9 /* Pods_TeknioTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6DBECCA3668FB72ED6F065FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC88375EE18CF7B0C83BD176 /* Pods_Teknio.framework */,
+				F898B8DEFD458AB690CAC8E6 /* Pods_TeknioTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBF4155D7B2BED2C2A20375A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				454477D543FE7DC262345D5A /* Pods-Teknio.debug.xcconfig */,
+				B93C20BEAEBF9E010A9FCE76 /* Pods-Teknio.release.xcconfig */,
+				99137C1631BFB6920DE0FFD4 /* Pods-TeknioTests.debug.xcconfig */,
+				5CFCDC1B5EFEFB105AA92E82 /* Pods-TeknioTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D76192D3211A3A1500CDED97 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D767EAA92119FD5800FC313A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D76192D4211A3C6D00CDED97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D767EAA22119FD5700FC313A /* AppDelegate.swift */,
+				D767EAAE2119FD5800FC313A /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		D767EA962119FD5700FC313A = {
 			isa = PBXGroup;
 			children = (
 				D767EAA12119FD5700FC313A /* Teknio */,
 				D767EAB62119FD5800FC313A /* TeknioTests */,
 				D767EAA02119FD5700FC313A /* Products */,
+				BBF4155D7B2BED2C2A20375A /* Pods */,
+				6DBECCA3668FB72ED6F065FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +126,11 @@
 		D767EAA12119FD5700FC313A /* Teknio */ = {
 			isa = PBXGroup;
 			children = (
-				D767EAA22119FD5700FC313A /* AppDelegate.swift */,
+				D76192D4211A3C6D00CDED97 /* Supporting Files */,
+				D76192D3211A3A1500CDED97 /* Resources */,
 				D767EAA42119FD5700FC313A /* ViewController.swift */,
 				D767EAA62119FD5700FC313A /* Main.storyboard */,
-				D767EAA92119FD5800FC313A /* Assets.xcassets */,
 				D767EAAB2119FD5800FC313A /* LaunchScreen.storyboard */,
-				D767EAAE2119FD5800FC313A /* Info.plist */,
 			);
 			path = Teknio;
 			sourceTree = "<group>";
@@ -103,9 +151,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D767EABC2119FD5800FC313A /* Build configuration list for PBXNativeTarget "Teknio" */;
 			buildPhases = (
+				F09835BFE12FDF82EEFB4D25 /* [CP] Check Pods Manifest.lock */,
 				D767EA9B2119FD5700FC313A /* Sources */,
 				D767EA9C2119FD5700FC313A /* Frameworks */,
 				D767EA9D2119FD5700FC313A /* Resources */,
+				DE0765585F895CFA4288D082 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D767EABF2119FD5800FC313A /* Build configuration list for PBXNativeTarget "TeknioTests" */;
 			buildPhases = (
+				8B6498A63F1220742FE5EA89 /* [CP] Check Pods Manifest.lock */,
 				D767EAAF2119FD5800FC313A /* Sources */,
 				D767EAB02119FD5800FC313A /* Frameworks */,
 				D767EAB12119FD5800FC313A /* Resources */,
+				B8168E0C49F79427DFB17AF3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -146,15 +198,17 @@
 				TargetAttributes = {
 					D767EA9E2119FD5700FC313A = {
 						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
 					};
 					D767EAB22119FD5800FC313A = {
 						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
 						TestTargetID = D767EA9E2119FD5700FC313A;
 					};
 				};
 			};
 			buildConfigurationList = D767EA9A2119FD5700FC313A /* Build configuration list for PBXProject "Teknio" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -191,6 +245,137 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8B6498A63F1220742FE5EA89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeknioTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8168E0C49F79427DFB17AF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TeknioTests/Pods-TeknioTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxFeedback/RxFeedback.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/Typhoon/Typhoon.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxFeedback.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Typhoon.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeknioTests/Pods-TeknioTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE0765585F895CFA4288D082 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Teknio/Pods-Teknio-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/DTModelStorage/DTModelStorage.framework",
+				"${BUILT_PRODUCTS_DIR}/DTTableViewManager/DTTableViewManager.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxFeedback/RxFeedback.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/Typhoon/Typhoon.framework",
+				"${BUILT_PRODUCTS_DIR}/Wormholy/Wormholy.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DTModelStorage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DTTableViewManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxFeedback.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Typhoon.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Wormholy.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Teknio/Pods-Teknio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F09835BFE12FDF82EEFB4D25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Teknio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D767EA9B2119FD5700FC313A /* Sources */ = {
@@ -348,61 +533,55 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		D767EABD2119FD5800FC313A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 454477D543FE7DC262345D5A /* Pods-Teknio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U67ZU8H7H4;
-				INFOPLIST_FILE = Teknio/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				INFOPLIST_FILE = "$(SRCROOT)/Teknio/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.akarataev.Teknio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D767EABE2119FD5800FC313A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B93C20BEAEBF9E010A9FCE76 /* Pods-Teknio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U67ZU8H7H4;
-				INFOPLIST_FILE = Teknio/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				INFOPLIST_FILE = "$(SRCROOT)/Teknio/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.akarataev.Teknio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		D767EAC02119FD5800FC313A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99137C1631BFB6920DE0FFD4 /* Pods-TeknioTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U67ZU8H7H4;
 				INFOPLIST_FILE = TeknioTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.akarataev.TeknioTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -413,17 +592,14 @@
 		};
 		D767EAC12119FD5800FC313A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CFCDC1B5EFEFB105AA92E82 /* Pods-TeknioTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U67ZU8H7H4;
 				INFOPLIST_FILE = TeknioTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.akarataev.TeknioTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

@@ -1,0 +1,99 @@
+PODS:
+  - Alamofire (4.7.3)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - DTModelStorage (7.1.0):
+    - DTModelStorage/Core (= 7.1.0)
+  - DTModelStorage/Core (7.1.0)
+  - DTTableViewManager (6.3.0):
+    - DTModelStorage (~> 7.1.0)
+  - FBSDKCoreKit (4.35.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.35.0):
+    - FBSDKCoreKit
+  - lottie-ios (2.5.0)
+  - Moya (11.0.2):
+    - Moya/Core (= 11.0.2)
+  - Moya/Core (11.0.2):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Realm (3.7.5):
+    - Realm/Headers (= 3.7.5)
+  - Realm/Headers (3.7.5)
+  - Result (3.2.4)
+  - RxCocoa (4.2.0):
+    - RxSwift (~> 4.0)
+  - RxFeedback (1.0.3):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.2.0)
+  - Socket.IO-Client-Swift (13.3.0):
+    - Starscream (~> 3.0.2)
+  - Starscream (3.0.5)
+  - Typhoon (4.0.5):
+    - Typhoon/DeallocNotifier (= 4.0.5)
+    - Typhoon/IntrospectionUtils (= 4.0.5)
+    - Typhoon/no-arc (= 4.0.5)
+  - Typhoon/DeallocNotifier (4.0.5)
+  - Typhoon/IntrospectionUtils (4.0.5)
+  - Typhoon/no-arc (4.0.5):
+    - Typhoon/IntrospectionUtils
+  - Wormholy (1.1.3)
+
+DEPENDENCIES:
+  - DTTableViewManager (~> 6.3)
+  - FBSDKLoginKit (~> 4.35)
+  - lottie-ios (~> 2.5)
+  - Moya (~> 11.0)
+  - Realm (~> 3.7)
+  - RxFeedback (~> 1.0)
+  - Socket.IO-Client-Swift (~> 13.3)
+  - Typhoon (~> 4.0)
+  - Wormholy (~> 1.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Bolts
+    - DTModelStorage
+    - DTTableViewManager
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - lottie-ios
+    - Moya
+    - Realm
+    - Result
+    - RxCocoa
+    - RxFeedback
+    - RxSwift
+    - Socket.IO-Client-Swift
+    - Starscream
+    - Typhoon
+    - Wormholy
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  DTModelStorage: aaaf3eac97693c25fef63ea741aa9c75274a778b
+  DTTableViewManager: ee2e2cfefb08e9723172b623b0bb85e2ea9bdab1
+  FBSDKCoreKit: 1a5b2e3ceb5ca827a53c54aa5f4a3480efff80d2
+  FBSDKLoginKit: 00a3d65d1226852f9d76dcddff01981e5e6d9c38
+  lottie-ios: d699fdee68d7b63e721d949388b015fef1aaa4ac
+  Moya: a725035953bc1c0eb1be505ab903984501d82440
+  Realm: c286caf4dbf346ce24aad49ca76c7ce622d4a082
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  RxCocoa: 0b54909c902e1e581212a03e690bbd94032d8baa
+  RxFeedback: 0b032eb82a4cf858b3b97fb8eb30a895f837fbda
+  RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
+  Socket.IO-Client-Swift: 0afb192a562db90d50e3f7f7421c06925a3f0179
+  Starscream: faf918b2f2eff7d5dd21180646bf015a669673bd
+  Typhoon: 58ae5754d3d0aa819119d8c107aed0dd67f1eb3b
+  Wormholy: 39a9487ce44afbda62eb3af2dba42b4303d0a6b8
+
+PODFILE CHECKSUM: 6151f266f8a200e929096404c9e7f6145b10fd70
+
+COCOAPODS: 1.5.3
