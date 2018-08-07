@@ -55,6 +55,26 @@ DEPENDENCIES:
   - Typhoon (~> 4.0)
   - Wormholy (~> 1.1)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Bolts
+    - DTModelStorage
+    - DTTableViewManager
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - lottie-ios
+    - Moya
+    - Realm
+    - Result
+    - RxCocoa
+    - RxFeedback
+    - RxSwift
+    - Socket.IO-Client-Swift
+    - Starscream
+    - Typhoon
+    - Wormholy
+
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
@@ -74,6 +94,6 @@ SPEC CHECKSUMS:
   Typhoon: 58ae5754d3d0aa819119d8c107aed0dd67f1eb3b
   Wormholy: 39a9487ce44afbda62eb3af2dba42b4303d0a6b8
 
-PODFILE CHECKSUM: 5db8a9ad35c7543837d436d4755bf0cbbc1268a2
+PODFILE CHECKSUM: 6151f266f8a200e929096404c9e7f6145b10fd70
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.5.3
