@@ -33,6 +33,16 @@ For any bugs please include the following information:
 Pull requests should include information about what has been changed. Also, try to include screenshots or links to issues in order to better review the pull request.
 
 
+## Requirements
+
+In order to compile Teknio you will need to meet the following requirements:
+```
+- A Mac with Xcode 8.1 or later
+- Git command line tools or a git source control client like GitKraken.
+- Cocoapods as dependency manager for Swift and Objective-C Cocoa projects.
+```
+
+
 ## License
 
 Beam is available under the MIT license. See the [LICENSE.md](LICENSE.md) file for more info.
