@@ -31,3 +31,8 @@ For any bugs please include the following information:
 ### Pull requests
 
 Pull requests should include information about what has been changed. Also, try to include screenshots or links to issues in order to better review the pull request.
+
+
+## License
+
+Beam is available under the MIT license. See the [LICENSE.md](LICENSE.md) file for more info.
