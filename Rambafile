@@ -11,7 +11,7 @@ prefix:
 project_target: Teknio
 
 # The file path for new modules
-project_file_path: Teknio/Classes/
+project_file_path: Teknio/Classes/Modules/
 
 # The Xcode group path to new modules
 project_group_path: Teknio/Classes/
