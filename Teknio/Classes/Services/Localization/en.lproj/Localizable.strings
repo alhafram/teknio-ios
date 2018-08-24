@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Teknio
+
+  Created by Каратаев Алексей on 24.08.2018.
+  Copyright © 2018 Alexey Karataev. All rights reserved.
+*/
+
+// MARK: - strings for Auth screen
+
+"facebookAuthButtonText" = "Start with Facebook";
